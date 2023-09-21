@@ -1,7 +1,7 @@
 let input = document.querySelector('input');
 let content = document.getElementById('content');
-let shoes = ["Adidas", "Nike", "World balance"];
-
+let shoes = ["Adidas", "Nike", "World balance", "Polo", "FUBU", "Penshoppe"];
+content.innerHTML = shoes.toString();
 function pushArr(){
     let inputValue = input.value;
     shoes.push(inputValue);
